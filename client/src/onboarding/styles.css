@@ -1,0 +1,72 @@
+.LoginCard {
+    margin: 3rem auto;
+    padding: 30px 20px;
+    display: table !important;
+}
+
+.LoginCard h1 {
+    font-size: 20px;
+}
+
+.LoginCard .FormActionContainer {
+  margin: 24px; 
+}
+
+.LoginCard .FormFieldContainer {
+  margin: 16px 0px;
+}
+
+.LoginCard .FormTextField, .LoginCard .react-datepicker__input-container input, .LoginCard .FormFieldContainer .geosuggest__input {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: left;
+  color: rgb(60, 66, 87);
+  text-decoration: none;
+  border-radius: 4px;
+  border: 0px;
+  padding: 5px 20px;
+  min-width: 250px;
+
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #66615b;
+  -webkit-transition: color .3s ease-in-out,border-color .3s ease-in-out,background-color .3s ease-in-out;
+  transition: color .3s ease-in-out,border-color .3s ease-in-out,background-color .3s ease-in-out;
+  box-shadow: none;
+}
+
+.LoginCard .FormFieldContainer .card-calendar-input, .LoginCard .FormFieldContainer .geosuggest {
+  display: inline-block;
+}
+
+.LoginCard .PrimaryButton {
+  margin: 20px auto;
+  display: table !important;
+  padding: 12px 10px;
+  width: 100%;
+}
+
+.LoginCard .FormLabel {
+  margin: 8px 1px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: rgb(60, 66, 87);
+  padding: 10px 5px 0 0px;
+  line-height: 1.5;
+  display: block;
+}
+
+.LoginCard .ErrorMessage {
+    color: #f2505b;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.SignupInsteadContainer {
+  text-align: center;
+  margin: 20px auto;
+}

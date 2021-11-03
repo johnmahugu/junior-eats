@@ -1,0 +1,59 @@
+.InputMessage {
+    /* border: 10px solid #000; */
+    height: 80%;
+    border-radius: 20px;
+    margin-top: 7px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+    padding-right: 10px;
+    font-size: 1em;
+    width:calc(100% - 40px);
+}
+
+.InputControls {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+    overflow: hidden;
+    outline: none;
+    /* position: absolute; */
+    width:100%;
+}
+
+.ChatArea {
+    width:100%;
+    height: 91vh;
+    overflow: hidden;
+    margin-bottom: -100px;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;      
+}
+
+.MessagesArea {
+    background-color: white;
+    width: 100%;
+    display:flex;
+    border-radius: 10px;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(91vh - 60px);
+}
+
+.Messages {
+    padding-left: 20px;
+
+}
+
+.Message {
+    list-style-type: none;
+    padding: 2px;
+}
+
+.MessageBody {
+    word-wrap: break-word;
+    padding-top:2px;
+}
